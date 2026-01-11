@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css"/>
+  <title>Frontend Mentor | Single Price Grid Component</title>
+</head>
+<body>
+  <main class="grid-comp-bg-cont">
+    <section class="grid-comp" aria-label="Pricing and community overview">
+      
+      <div class="grid-comp__section grid-comp__top-half" aria-labelledby="join-heading">
+        <h1 id="join-heading" class="grid-comp__heading-join">Join our community</h1>
+        <h2 class="grid-comp__guarantee">30-day, hassle-free money back guarantee</h2>
+        <p class="grid-comp__gain">
+          Gain access to our full library of tutorials along with expert code reviews. 
+          Perfect for any developers who are serious about honing their skills.
+        </p>
+      </div>
+
+      <div class="grid-comp__section grid-comp__bottom-left" aria-labelledby="monthly-sub">
+        <h2 id="monthly-sub" class="grid-comp__monthly">Monthly Subscription</h2>
+
+        <div class="grid-comp__cost-wrap">
+          <p class="grid-comp__price">$29</p>
+          <p class="grid-comp__per">per month</p>
+        </div>
+
+        <p class="grid-comp__full">Full access for less than $1 a day</p>
+
+        <button 
+          class="grid-comp__signup" 
+          aria-label="Sign up for the monthly subscription">
+          Sign Up
+        </button>
+      </div>
+
+      <div class="grid-comp__section grid-comp__bottom-right" aria-labelledby="why-us">
+        <h2 id="why-us" class="grid-comp__why">Why Us</h2>
+
+        <ul class="grid-comp__why-list">
+          <li class="grid-comp__list-item">Tutorials by industry experts</li>
+          <li class="grid-comp__list-item">Peer &amp; expert code review</li>
+          <li class="grid-comp__list-item">Coding exercises</li>
+          <li class="grid-comp__list-item">Access to our GitHub repos</li>
+          <li class="grid-comp__list-item">Community forum</li>
+          <li class="grid-comp__list-item">Flashcard decks</li>
+          <li class="grid-comp__list-item">New videos every week</li>
+        </ul>
+      </div>
+
+    </section>
+  </main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Ron L</a>.
+    </p>
+  </footer>
+</body>
+</html>
