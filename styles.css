@@ -193,10 +193,6 @@
             grid-template-areas: "top" "bottom-left" "bottom-right";
         }
 
-        .grid-comp-bg-cont {
-            height: auto;
-        }
-
         .grid-comp__heading-join {
             font-size: clamp(2.0000rem, calc(1.5323rem + 1.6129vw), 2.5000rem);
         }
@@ -218,3 +214,4 @@
     
 
     
+
